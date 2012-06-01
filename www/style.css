@@ -1,0 +1,164 @@
+
+/* @group accordion*/
+
+.accordion{
+	width: 566px;
+	margin: 0;
+}
+.accordion section, .box {
+	display: block;
+	background-color: #EFF1F2;
+	margin-bottom: 3px;
+	border-bottom: 1px solid #ccc;
+	padding: 0 15px;
+}
+.accordion ul {
+	margin: 0;
+	padding: 0 0 20px 140px;
+}
+.accordion ul li {
+	padding-top: 10px;
+}
+.accordion h2 {
+	padding: 50px 0 50px 120px;
+	}
+.accordion a {
+	text-decoration: none;
+	color: #DA1127;
+	font-weight: normal;
+	font-style: normal;
+}
+#create {
+	background-image: url(images/create.png);
+	background-repeat: no-repeat;
+}
+#involve {
+	background-image: url(images/involve.png);
+	background-repeat: no-repeat;
+}
+#manage {
+	background-image: url(images/manage.png);
+	background-repeat: no-repeat;
+}
+#converse {
+	background-image: url(images/converse.png);
+	background-repeat: no-repeat;
+}
+.accordion a + div{
+height: 0;
+overflow: hidden;
+-moz-transition: height 0.3s ease-in-out;
+-webkit-transition: height 0.3s ease-in-out;
+-o-transition: height 0.3s ease-in-out;
+transition: height 0.3s ease-in-out;}
+.accordion :target a + div.create{height: 160px;}
+.accordion :target a + div.involve{height: 460px;}
+.accordion :target a + div.converse{height: 240px;}
+.accordion :target a + div.manage{height: 290px;}
+
+/* @end */
+
+/* @group layout*/
+.container {
+   width: 860px; /* Ширина макета */
+   margin: 0 auto; /* Выравниваем по центру */
+   position: relative; /* Относительное позиционирование */
+  }
+header {
+	background: #415167; /* Цвет фона */
+	color: #fff; /* Цвет текста */
+	padding: 20px; /* Отступы вокруг текста */
+}
+
+.content {
+   margin-right: 294px; /* Отступ справа */
+}
+.sidebar {
+   /* Абсолютное позиционирование */
+   right: 0; /* Положение от правого края */
+   top: 0; /* Положение от верхнего края */
+   width: 270px; /* Ширина */
+   position: absolute;
+   float: right;
+}
+.phone {
+	background: url('images/icon_phone.gif') no-repeat left center;
+	padding-left: 20px;
+	width: 250px;
+	font-size: 12px;
+	line-height: 1.5em;
+	top: 60%;
+}
+footer {
+	background: #415167; /* Цвет фона */
+	color: #fff; /* Цвет текста */
+	padding: 15px; /* Отступы вокруг текста */
+	margin-top: 30px;
+}
+footer p {
+	font-size: 10px;
+}
+footer img {
+	float: left;
+	padding: 5px 10px;
+}
+.image {
+	background: url('images/img.jpg') no-repeat left top;
+	height: 295px;
+}
+.image p {
+	font-size: 16px;
+	padding: 30px 370px 0 30px;
+	margin-bottom: 0;
+}
+/* @end */
+
+/* @group text*/
+* {
+	font-family: Helvetica, "Helvetica Neue", Arial, Geneva, sans-serif;
+  }
+body {
+	margin: 0;
+}
+
+h2 {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	padding: 15px 0;
+	margin: 0;
+}
+
+.sidebar h2 {
+	color: #46586C;
+}
+
+.red {
+	color: #DA1127;
+}
+
+.gray {
+	color: #6C6C6C;
+}
+
+ul, .f_line_text {
+	font-size: 13px;
+	color: #333;
+}
+li:first-child {
+	margin-top: -10px;
+}
+.f_line_text {
+	margin: 0;
+	padding: 10px 0 3px 0;
+}
+.f_line {
+	width: 100%;
+	height: 20px;
+	border: 0;
+	border-bottom: 1px solid  #ccc;
+}
+#go_image {
+	padding: 15px 0 10px 0;
+}
+/* @end */
