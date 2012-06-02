@@ -3,7 +3,7 @@
  $mhSmtpMail_Server     = "smtp.pdc-russia.ru";       // ”кажите адрес SMTP-сервера
  $mhSmtpMail_Port       = "25";                    // ѕорт SMTP-сервера, как правило 25
  $mhSmtpMail_Username   = "info@pdc-russia.ru"; // »м€ почтового €щика (пользовател€)
- $mhSmtpMail_Password   = "nv5Cukd2";              // и пароль к нему.
+ $mhSmtpMail_Password   = "###";              // и пароль к нему.
  $mhSmtpMail_From       = "bernerandstafford.ru";       // »м€ отправител€ в поле From
 
 // ќбратите внимание, что в услови€х нашей почтовой системы, им€ пользовател€ требуетс€ указывать полностью, например postmaster@domain.tld
